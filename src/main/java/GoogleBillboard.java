@@ -21,7 +21,7 @@ public class GoogleBillboard {
 	bolean True = false;
   	for (int i = 2; i<=Math.sqrt(dNum); i++){
 	if(dNum%i==0)
-	True=true
+	True=true;
 	}
 	if (True==true){
 	return false;
